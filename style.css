@@ -1,0 +1,330 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: #ddd; */
+}
+
+/* -----------------NAVBAR --------------------*/
+header{
+    width: 100%;
+    background-color:seagreen;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-left: 20px;
+    padding: 10px;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav ul{
+    list-style: none;
+    
+
+}
+.nav ul li{
+    /* background-color: #262626; */
+    width: 170px;
+    border: 1ps solid #fff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.nav ul li:hover{
+    background-color:brown;
+    transition: all ease-in 0.5s;
+
+}
+.nav ul ul{
+    display: none;
+    
+
+}
+.nav ul li:hover > ul{
+    display: block;
+    background-color: black;
+    
+
+}
+/* -----------------NAVBAR --------------------*/
+
+/* -----------------BANNER --------------------*/
+
+.banner{
+    
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8% 0;
+    background-image: url(IMG/56690141.WEBP) ;
+    background-size: cover;
+    
+}
+
+.banner_text{
+    max-width: 630px;
+    
+}
+.banner_text h1{
+    font-size: 50px;
+    line-height: 1,2;
+    color: #fff;
+}
+.banner_text p{
+    font-size: 16px;
+    margin: 15px 0 30px;
+    color: #fff;
+
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+    border: 2px solid cornflowerblue;
+    border-radius: 6px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 1s;
+}
+.btn:hover{
+    background: transparent;
+    background-color:steelblue ;
+}
+
+.banner_img img{
+    position: relative;
+    width: 350px;
+    height: 350px;
+}
+
+
+/* -----------------BANNER --------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------2nd-------------------------------------- */ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.firstBanner_nav {
+    font-family: 'Inter', sans-serif;
+}
+
+@font-face {
+    font-family: myText;
+    src: url(font/Deduction.ttf);
+}
+@font-face {
+    font-family: secBbannerTittle;
+    src: url(font/2nd_bannerr.ttf);
+}
+.sec_banner_tittle{
+    font-family: secBbannerTittle !important;
+}
+.navbar {
+    width: 100%;
+    background-color: #3B5D50;
+    padding: 1.5rem;
+    box-shadow: inset 0px -4rem 0rem -63px rgb(66 161 30 / 15%);
+}
+
+.container {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+}
+
+.navbarBrand a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 10px;
+    /* overflow: hidden; */
+}
+
+.navbarBrand a span {
+    color: #ccc9c970;
+    font-size: 40px;
+}
+
+.navbarBox {
+    font-weight: 600;
+    padding: 20px;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar-menu li {
+    margin-left: 5rem;
+}
+
+.navbar-menu li a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.navbar-menu li:hover a {
+    color: white;
+}
+
+.firstBanner {
+    width: 100%;
+    height: 90vh;
+    background-color: #3B5D50;
+    padding: 1.5rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.bannerWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 100px;
+    height: 100%;
+    margin-top: 80px;
+}
+
+.firstBannerContent{
+    width: 50%;
+}
+.firstBannerContent h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+.firstBannerContent h1 span {
+    color:black;
+}
+
+.firstBannerContent p {
+    color: #96b0a6;
+    margin: 1.5rem 0;
+}
+
+.trnss {
+    color: white !important;
+    border: 2px solid rgba(255, 255, 255, 0.418) !important;
+    background: transparent !important;
+    padding: .75rem 1.75rem !important;
+    transition: 0.3s !important;
+}
+
+.trnss:hover {
+    border-color: rgb(255, 255, 255) !important;
+
+}
+
+.firstBannerContent button {
+    background-color:;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: .9rem 1.8rem;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 0.9rem;
+    margin: 20px 20px 0px 0px;
+
+}
+
+.firstBannerContent button:hover {
+    background: transparent;
+    background-color: maroon;
+}
+
+.firstBannerImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.firstBannerImg {
+    position: relative;
+    z-index: 1;
+}
+
+.dot_img {
+    position: absolute;
+    margin: 10px;
+    top: 0;
+    right: 0;
+  z-index:-1;
+}
+
+
+
+
+/* /* ------------------------------------------------2nd------------------------------------ */
+
+
+
+
+/* /* ------------------------------------------------3RD------------------------------------ */
+
+
+
+
+ 
+
+
+/* /* ------------------------------------------------3RD------------------------------------ */
